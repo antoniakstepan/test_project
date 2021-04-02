@@ -1,0 +1,51 @@
+.target {
+	width: 100%;
+
+	&__title {
+		padding: 0 30px;
+		margin-bottom: 30px;
+	}
+  &__title--content {
+		display: flex;
+		border-bottom: 1px solid black;
+	}
+
+	&__list {
+		display: flex;
+		padding-left: 20px;
+	}
+
+	&__link{
+		text-decoration: none;
+		color: #9fbf30;
+	}
+
+	&__item {
+		margin: 0 10px;
+	}
+
+	&__fhoto {
+		background-image: url(./../img/main.png);
+		position: relative;
+		margin: 0 30px;
+		padding: 150px;
+	}
+
+	&__left {
+		font-size: 52px;
+		color: white;
+		position: absolute;
+		top: 50%;
+		left: 5%;
+		transform: translate(-50%, -50%);
+	}
+
+	&__right {
+		font-size: 52px;
+		color: white;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		top: 50%;
+		right: 5%;
+	}
+}

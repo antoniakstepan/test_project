@@ -1,0 +1,84 @@
+.aside {
+	max-width: 275px;
+	border-top: 1px solid #9fbf30;
+	border-right: 1px solid #9fbf30;
+
+	&__title {
+		font-size: 24px;
+		padding: 15px 10px;
+	}
+
+	&__list {
+		padding:20px  0 0 10px;
+	}
+
+	&__item {
+		list-style: none;
+		padding: 5px 0; 
+	}
+
+	&__wrap {
+		display: inline-block;
+		width: 195px;
+	}
+
+	&__select {
+		border: none;
+	}
+
+	&__storage {
+		border-top: 1px solid #9fbf30;
+	}
+
+	&__storage--text {
+		padding: 20px 0 0 10px;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	&__width {
+		padding-top: 20px;
+		border-top: 1px solid #9fbf30;
+	}
+
+	&__width--content {
+		display: flex;
+	}
+
+	&__width--from {
+		padding:5px 15px;
+		border: 1px solid  #909090;
+		margin-right: 10px;
+
+		&:hover {
+			border: 1px solid black;
+			border-radius: 15px;
+		}
+	}
+
+	&__width--content {
+		padding: 20px 0 0 13px;
+		margin-bottom: 20px;
+	}
+
+	&__color {
+		padding-top: 20px;
+		border-top: 1px solid #9fbf30;
+	}
+
+	&__color--wrap {
+		padding: 10px  12px 30px;
+		display: grid;
+		grid-column-gap: 10px;
+		grid-template-columns: repeat(5, 1fr);
+	}
+	
+	&__color--body {
+		padding-top: 30px;
+	}
+	@for $i from 0 through 5 {
+		.aside__color--body:nth-child(#{$i+1}) {
+			background-color: darken(grey , $i*5);
+		}
+	}
+}

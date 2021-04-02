@@ -1,0 +1,12 @@
+.info {
+	background-image: url(../img/info.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 1950px;
+
+	&__wrap {
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-end;
+	}
+}

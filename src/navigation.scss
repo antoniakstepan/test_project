@@ -1,0 +1,19 @@
+.navigation {
+	max-width: 1560px;
+	padding: 0 13.3vw;
+  &__list {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	&__item {
+		list-style: none;
+		padding: 5px 0;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: white;
+	}
+}

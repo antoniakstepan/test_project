@@ -1,0 +1,88 @@
+.card {
+	max-width: 200px;
+	display: grid;
+	padding-left: 15px;
+  &__fhoto {
+		width: 200px;
+		position: relative;
+		background-image: url(../img/card__photo.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		padding-top: 150px;
+	}
+
+	&__heart {
+		position: absolute;
+		background-image: url(../img/card__heard.png);
+		padding: 10px;
+		top: 10px;
+		left: 10px;
+		z-index: 1;
+	}
+
+	&__content {
+		padding:10px 0 0  7px;
+	}
+
+	&__number {
+		color: #909090;
+		font-size: 20px;
+	}
+
+	&__text {
+		font-weight: bold;
+	}
+
+	&__price {
+
+		padding:10px 0 0  7px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__price--left {
+		color: #909090;
+		text-decoration: line-through;
+		font-size: 20px;
+	}
+
+	&__price--right {
+		color: #9fbf30;
+		font-size: 26px;
+	} 
+
+	&__button {
+		width: 200px;
+		text-align: center;
+		background-color: #9fbf30;
+		border-radius: 15px;
+		padding: 10px;
+		margin: 10px 0;
+	}
+
+	&__button--text {
+		color: white;
+		font-size: 16px;
+	}
+
+	&__footer {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__list {
+		display: flex;
+		align-items: center;
+	}
+
+	&__item {
+		list-style: none;
+		padding: 10px 10px 0 0;
+	}
+
+	&__item--text {
+		font-size: 24px;
+		color: #909090;
+		padding-bottom: 5px;
+	}
+}

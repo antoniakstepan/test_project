@@ -1,0 +1,23 @@
+.search {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 1560px;
+	padding: 0 14.5vw;
+	background-color:#595959;
+
+	&__list {
+		display: flex;
+	}
+	
+	&__item {
+		padding: 0 10px;
+		list-style: none;
+	}
+
+	&__item--text {
+		color: white;
+		font-size: 16px;
+	}
+
+}

@@ -1,0 +1,33 @@
+.nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+  &__list{
+		display: flex;
+	}
+
+	&__item {
+		list-style: none;
+		padding: 10px 5px 10px 0;
+
+		&:hover {
+			background-color: white;
+			color: black;
+		}
+	}
+
+	&__link {
+		text-decoration: none;
+		color: white;
+
+		&:hover {
+			color: black;
+		}
+	}
+
+	&__enter--link {
+		text-decoration: none;
+		color: white;
+	}
+}

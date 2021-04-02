@@ -1,0 +1,29 @@
+@import "../src/header.scss";
+@import "../src/nav.scss";
+@import "../src/search.scss";
+@import "../src/navigation.scss";
+@import "../src/main.scss";
+@import "../src/content.scss";
+@import "../src/aside.scss";
+@import "../src/target.scss";
+@import "../src/card.scss";
+@import "../src/gallary.scss";
+@import "../src/goods.scss";
+@import "../src/subscribe.scss";
+@import "../src/info.scss";
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+  
+body,
+p,
+li,
+ul,
+h3 {
+  margin: 0;
+  padding: 0;
+}
