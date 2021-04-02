@@ -1,4 +1,5 @@
 .info {
+	// display: grid;
 	background-image: url(../img/info.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -8,5 +9,20 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: flex-end;
+	}
+
+	&__text {
+		font-size: 18px;
+		color: white;
+		padding-top: 50px;
+	} 
+
+	&__title {
+		padding-left: 18vw;
+	}
+
+	&__title--text {
+		color: white;
+		font-size: 32px;
 	}
 }
