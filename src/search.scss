@@ -20,4 +20,28 @@
 		font-size: 16px;
 	}
 
+	&__selects option {
+		background-color: black;
+		color: white;
+	}
+
+	&__input {
+		background-color: #909090;
+		outline: none;
+		padding: 5px 0;
+		width: 300px;
+		border: 1px solid transparent;
+
+		&::placeholder {
+			color: white;
+		}
+	}
+
+	&__button {
+		background-color: #909090;
+		color: white;
+		padding: 5px;
+		outline-style: none;
+		border: 1px solid transparent;
+	}
 }
